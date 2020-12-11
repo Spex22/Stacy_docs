@@ -24,6 +24,8 @@ for n, line in enumerate(file):
 file.close()
 new_file.close()
 
+with open('for_l.txt', 'r') as f:
+    print(f.read())
 
 
 
